@@ -1,0 +1,8304 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #000;
+}
+
+.grid {
+  grid-template-areas: ".";
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+
+.date_tips_image {
+  background-color: #000;
+}
+
+.heading {
+  font-family: Abrilfatface, sans-serif;
+  color: #fff;
+  font-size: 160px;
+  line-height: 120px;
+}
+
+.heading-2 {
+  font-family: Abrilfatface, sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+.text-block {
+  padding-top: 41px;
+  padding-bottom: 0px;
+  color: #fff;
+}
+
+.article_container_1 {
+  background-color: #000;
+}
+
+.article_container_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #000;
+}
+
+.grid-2 {
+  -ms-grid-columns: 1fr 0.75fr;
+  grid-template-columns: 1fr 0.75fr;
+}
+
+.button {
+  width: 300px;
+  margin-left: 42px;
+  padding-top: 66px;
+  line-height: 20px;
+}
+
+.headind_1 {
+  font-family: Abrilfatface, sans-serif;
+  color: #fff;
+  font-size: 120px;
+  line-height: 120px;
+}
+
+.heading_2 {
+  font-family: Abrilfatface, sans-serif;
+  color: #fff;
+}
+
+.body {
+  background-color: #000;
+  color: #000;
+}
+
+.text-block-2 {
+  font-size: 20px;
+}
+
+.article_grid_1 {
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  background-color: #000;
+}
+
+.article_text {
+  background-color: #000;
+}
+
+.article_image {
+  background-color: #000;
+}
+
+.heading-3 {
+  margin-top: 100px;
+  padding-left: 36px;
+  font-family: Abrilfatface, sans-serif;
+  color: #fff;
+  font-size: 130px;
+  line-height: 120px;
+  text-align: left;
+}
+
+.heading-4 {
+  padding-left: 36px;
+  font-family: Abrilfatface, sans-serif;
+  color: #fff;
+  font-size: 50px;
+  line-height: 100px;
+  text-align: left;
+}
+
+.text-block-3 {
+  max-width: 90%;
+  padding-top: 3px;
+  padding-left: 36px;
+  font-size: 25px;
+}
+
+.article_conainer_1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.grid-3 {
+  grid-row-gap: 6px;
+  grid-template-areas: "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2";
+  -ms-grid-columns: 1fr 0.75fr;
+  grid-template-columns: 1fr 0.75fr;
+  -ms-grid-rows: auto 6px auto 6px auto 6px auto;
+  grid-template-rows: auto auto auto auto;
+}
+
+.article_3_grid {
+  grid-column-gap: 0px;
+  grid-template-areas: "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2";
+  -ms-grid-columns: 1fr 0px 0.75fr;
+  grid-template-columns: 1fr 0.75fr;
+  -ms-grid-rows: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.article_3_text {
+  background-color: #000;
+}
+
+.grid-4 {
+  grid-template-areas: "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2";
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+}
+
+.image {
+  padding-left: 36px;
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
+}
+
+.image:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.image-2 {
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
+}
+
+.article_contaner_5 {
+  background-color: #000;
+}
+
+.grid-5 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 6fr 2.25fr 1fr 1fr;
+  grid-template-columns: 6fr 2.25fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.grid-6 {
+  grid-template-areas: "Area Area Area" "Area Area Area";
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.heading-5 {
+  padding-left: 2px;
+  font-family: Abrilfatface, sans-serif;
+  color: #fff;
+  font-size: 130px;
+  line-height: 130px;
+}
+
+.heading-6 {
+  padding-left: 14px;
+  font-family: Abrilfatface, sans-serif;
+  color: #fff;
+}
+
+.section {
+  height: 30px;
+  padding-top: 48px;
+}
+
+.grid-7 {
+  -ms-grid-columns: 0.25fr 0.25fr 0.25fr;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr;
+}
+
+.style_section {
+  background-color: #000;
+}
+
+.text-block-4 {
+  padding-bottom: 54px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.article_page_container {
+  height: auto;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grid-8 {
+  grid-row-gap: 0px;
+  grid-template-areas: "Area-30 Area-10" "Area Area-11" "Area-2 Area-12" "Area-2 Area-13" "Area-2 Area-14" "Area-5 Area-15" "Area-5 Area-16" "Area-6 Area-17" "Area-6 Area-18" "Area-6 Area-19" "Area-6 Area-20" "Area-7 Area-24" "Area-7 Area-25" "Area-7 Area-26" "Area-8 Area-27" "Area-8 Area-28" "Area-9 Area-29" "Area-9 ." "Area-9 ." "Area-9 ." "Area-21 ." "Area-21 ." "Area-21 ." "Area-22 ." "Area-22 ." "Area-22 ." "Area-22 ." "Area-22 ." "Area-23 ." "Area-23 .";
+  -ms-grid-rows: auto 0px auto 0px auto 0px minmax(auto, 4.75fr) 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto 0px auto;
+  grid-template-rows: auto auto auto minmax(auto, 4.75fr) auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.image-3 {
+  padding-left: 117px;
+}
+
+.bold-text {
+  line-height: 30px;
+}
+
+.paragraph {
+  line-height: 30px;
+}
+
+.paragraph-2 {
+  line-height: 30px;
+}
+
+.paragraph-3 {
+  line-height: 30px;
+}
+
+.article_container {
+  display: -ms-grid;
+  display: grid;
+  height: auto;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-areas: "Area Area-2" "Area Area-2" ". Area-2";
+  -ms-grid-columns: 0.5fr 16px 0.5fr;
+  grid-template-columns: 0.5fr 0.5fr;
+  -ms-grid-rows: auto 16px auto;
+  grid-template-rows: auto auto;
+}
+
+.grid-9 {
+  -ms-grid-rows: auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+.grid-10 {
+  grid-auto-columns: minmax(200px, 1.75fr);
+  grid-template-areas: "Area Area-5" "Area Area-6" "Area-2 Area-7" "Area-2 Area-8" "Area-2 Area-9";
+  -ms-grid-columns: 5fr 3fr;
+  grid-template-columns: 5fr 3fr;
+  -ms-grid-rows: auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+}
+
+.article_heading_grid {
+  grid-template-areas: "Area Area-2" "Area Area-2";
+  -ms-grid-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.image_grid {
+  grid-template-areas: "Area";
+  -ms-grid-columns: 1fr 0.5fr;
+  grid-template-columns: 1fr 0.5fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.list {
+  position: relative;
+  left: 0%;
+  top: 138%;
+  right: auto;
+  bottom: auto;
+  font-size: 20px;
+}
+
+.list-item {
+  font-size: 25px;
+}
+
+.list-item-2 {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.list-item-3 {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.bold-text-2 {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.div-block {
+  height: 400px;
+}
+
+.grid-11 {
+  grid-row-gap: 39px;
+  grid-template-areas: "." "." "Area" "Area-2" "Area-2" "Area-3" "Area-3" "Area-3" "Area-3" "Area-4" "Area-5";
+  -ms-grid-rows: auto 39px auto 39px auto 39px auto 39px auto 39px auto 39px auto 39px auto 39px auto 39px auto 39px auto 39px auto 39px auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.paragraph-5 {
+  margin-bottom: 0px;
+}
+
+.bold-text-3 {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.text-block-5 {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.paragraph-6 {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.paragraph-7 {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.paragraph-8 {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.outwear_paragraph {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.list-2 {
+  position: fixed;
+  border: 1px none #000;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.bold-text-4 {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.bold-text-7 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.list-item-4 {
+  border: 1px none #000;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.store_page_container {
+  height: 1200px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.clothing_items_container {
+  display: -ms-grid;
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 51px;
+  grid-template-areas: "Area Area-2 Area-3" "Area-4 Area-5 Area-6" "Area-4 Area-5 Area-6" "Area-4 Area-5 Area-6" "Area-4 Area-5 Area-6" "Area-4 Area-5 Area-6";
+  -ms-grid-columns: 0.25fr 16px 0.25fr 16px 0.25fr;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr;
+  -ms-grid-rows: auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+
+.clothing_container_2 {
+  display: block;
+}
+
+.shopping_container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 0.25fr 0.25fr 0.25fr;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  background-color: #000;
+}
+
+.heading-11 {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.heading-12 {
+  color: #fff;
+  text-align: center;
+}
+
+.heading-13 {
+  color: #000;
+  text-align: center;
+}
+
+.link-block {
+  text-decoration: none;
+}
+
+.link-block-2 {
+  text-decoration: none;
+}
+
+.link-block-3 {
+  text-decoration: none;
+}
+
+.link-block-4 {
+  color: #000;
+  text-decoration: none;
+}
+
+.link-block-5 {
+  text-decoration: none;
+}
+
+.heading-14 {
+  color: #fff;
+  text-align: center;
+}
+
+.link-block-6 {
+  text-decoration: none;
+}
+
+.heading-15 {
+  color: #fff;
+  text-align: center;
+}
+
+.heading-16 {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-block-7 {
+  color: #000;
+  text-decoration: none;
+}
+
+.link-block-8 {
+  color: #000;
+  text-decoration: none;
+}
+
+.link-block-9 {
+  color: #000;
+  text-decoration: none;
+}
+
+.heading-17 {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-block-10 {
+  text-decoration: none;
+}
+
+.link-block-11 {
+  text-decoration: none;
+}
+
+.heading-18 {
+  color: #fff;
+  text-align: center;
+}
+
+.link-block-12 {
+  text-decoration: none;
+}
+
+.heading-19 {
+  color: #fff;
+  text-align: center;
+}
+
+.bold-text-10 {
+  color: #fffcfc;
+}
+
+.heading-20 {
+  color: #fff;
+  text-align: center;
+}
+
+.bold-text-11 {
+  color: #fff;
+}
+
+.heading-21 {
+  text-align: center;
+}
+
+.bold-text-12 {
+  color: #fff;
+}
+
+.heading-22 {
+  text-align: center;
+}
+
+.bold-text-13 {
+  text-align: center;
+}
+
+.about_page_container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image_container {
+  height: auto;
+  padding-right: 197px;
+  padding-left: 251px;
+}
+
+.paragraph-10 {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 23px;
+  line-height: 40px;
+}
+
+.heading-23 {
+  text-align: center;
+}
+
+.image-4 {
+  padding-top: 0px;
+  padding-bottom: 26px;
+}
+
+.grid-13 {
+  grid-row-gap: 0px;
+  grid-template-areas: "Area-3 Area-4 Area-5" "Area . Area-6" "Area-2 . .";
+  -ms-grid-columns: 1fr 0.25fr 1fr;
+  grid-template-columns: 1fr 0.25fr 1fr;
+  -ms-grid-rows: auto 0px auto 0px auto;
+  grid-template-rows: auto auto auto;
+  background-color: #fff;
+}
+
+.image-5 {
+  background-color: #fff;
+}
+
+.logo_footer {
+  width: 100px;
+  height: 100px;
+  margin-left: 21px;
+  padding-left: 27px;
+}
+
+.logo_container {
+  margin-left: -2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 78px;
+}
+
+.contract_us {
+  padding-bottom: 31px;
+}
+
+.heading-24 {
+  text-align: center;
+}
+
+.heading-25 {
+  text-align: center;
+}
+
+.image-6 {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-left: 7px;
+}
+
+.heading-26 {
+  text-align: center;
+}
+
+.heading-27 {
+  text-align: center;
+}
+
+.grid-14 {
+  grid-row-gap: 0px;
+  grid-template-areas: "Area Area-2 Area-3";
+  -ms-grid-columns: 0.25fr 0.25fr 0.25fr;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr;
+}
+
+.image-7 {
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+
+.nav-link {
+  background-color: #f28e2a;
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  padding-left: 20px;
+  background-color: #f28e2a;
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+  color: #fff;
+}
+
+.nav-link-2 {
+  background-color: #f28e2a;
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav-link-2:hover {
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+
+.nav-link-2.w--current {
+  color: #fff8f8;
+}
+
+.nav-link-3 {
+  background-color: #f28e2a;
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav-link-3:hover {
+  background-color: #f28e2a;
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.image-8 {
+  margin-top: 50px;
+  padding-top: 0px;
+}
+
+.image-9 {
+  margin-top: 22px;
+  margin-left: 19px;
+  padding-top: 0px;
+}
+
+.image-10 {
+  margin-left: -5px;
+  background-color: #bf6220;
+}
+
+.link-block-13 {
+  position: relative;
+  left: 1024px;
+  top: -118px;
+  height: 100px;
+  padding-right: 289px;
+}
+
+.look_book_button {
+  position: relative;
+  left: 1005px;
+  top: -121px;
+  max-width: 332px;
+  margin-left: 0px;
+}
+
+.image-11 {
+  padding-right: 0px;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.image-11:hover {
+  background-color: transparent;
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+
+.link-block-14:hover {
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+
+.image-12 {
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
+}
+
+.link-block-15 {
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
+}
+
+.link-block-15:hover {
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+
+.button_link {
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
+}
+
+.button_link:hover {
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+
+.image-13 {
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
+}
+
+.image-14 {
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
+}
+
+.image-15 {
+  padding-left: 0px;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.link-block-16 {
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
+}
+
+.link-block-16:hover {
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+
+.link {
+  position: static;
+  font-family: 'Droid Sans', sans-serif;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.bold-text-15 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.bold-text-16 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.link-2 {
+  text-decoration: none;
+}
+
+.link-3 {
+  text-decoration: none;
+}
+
+.link-4 {
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .grid {
+    grid-auto-columns: 1.5fr;
+    grid-template-areas: ".";
+    -ms-grid-columns: 1.75fr 1fr;
+    grid-template-columns: 1.75fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .button {
+    width: 160px;
+    margin-left: 38px;
+    padding-top: 16px;
+  }
+  .body {
+    background-color: #000;
+  }
+  .heading-3 {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 64px;
+    padding-left: 9px;
+    font-family: Abrilfatface, sans-serif;
+    font-size: 75px;
+    line-height: 80px;
+    font-weight: 400;
+  }
+  .heading-4 {
+    margin-left: 0px;
+    padding-left: 15px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .text-block-3 {
+    padding-top: 27px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .article_conainer_1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .article_3_grid {
+    grid-row-gap: 0px;
+    grid-template-areas: "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2";
+    -ms-grid-rows: auto 0px auto 0px auto 0px auto 0px auto 0px auto;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+  .grid-4 {
+    grid-template-areas: "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2";
+    -ms-grid-rows: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+  }
+  .image {
+    padding-left: 0px;
+  }
+  .section {
+    padding-top: 28px;
+  }
+  .grid-7 {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .text-block-4 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .grid-8 {
+    grid-auto-columns: 0.25fr;
+    grid-template-areas: "Area-30 Area-10" "Area ." "Area-2 ." "Area-2 ." "Area-2 Area-14" "Area-5 Area-15" "Area-5 Area-16" "Area-6 Area-17" "Area-6 Area-18" "Area-6 Area-19" "Area-6 Area-20" "Area-7 Area-24" "Area-7 Area-25" "Area-7 Area-26" "Area-8 Area-27" "Area-8 ." "Area-9 ." "Area-9 ." "Area-9 ." "Area-9 ." "Area-21 ." "Area-21 ." "Area-21 ." "Area-22 ." "Area-22 ." "Area-22 .";
+    -ms-grid-columns: 1fr 0.75fr;
+    grid-template-columns: 1fr 0.75fr;
+    -ms-grid-rows: auto auto auto minmax(auto, 4.75fr);
+    grid-template-rows: auto auto auto minmax(auto, 4.75fr);
+  }
+  .build_wardrobe_container {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-areas: "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2" "Area Area-2";
+    -ms-grid-columns: 1fr 16px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  .image-3 {
+    padding-left: 0px;
+  }
+  .bold-text {
+    padding-left: 0px;
+  }
+  .paragraph-4 {
+    padding-left: 12px;
+  }
+  .heading-7 {
+    padding-left: 22px;
+  }
+  .heading-8 {
+    padding-left: 56px;
+  }
+  .article_container {
+    height: 1200px;
+    -ms-grid-columns: 0.75fr 0.5fr;
+    grid-template-columns: 0.75fr 0.5fr;
+  }
+  .grid-9 {
+    grid-row-gap: 149px;
+    grid-template-areas: "Area-2 Area-6" "Area-3 ." "Area-3 ." "Area-4 ." "Area-4 ." "Area-5 ." "Area-7 ." "Area-7 ." "Area-8 ." "Area-8 ." "Area-8 .";
+    -ms-grid-rows: auto 149px auto 149px auto 149px auto 149px auto 149px auto 149px auto 149px auto 149px auto 149px auto 149px auto 149px auto 149px auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  .article_heading_grid {
+    grid-row-gap: 0px;
+    grid-template-areas: "Area Area-2" ". Area-2";
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .menu_section {
+    position: static;
+  }
+  .grid-11 {
+    grid-row-gap: 12px;
+    grid-template-areas: "." "." "Area" "Area-2" "." "Area-3" "Area-3" "Area-3" "Area-3" "Area-4" "Area-6" "Area-7";
+    -ms-grid-rows: auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  .grid-12 {
+    grid-template-areas: "Area Area";
+  }
+  .menu_section_2 {
+    height: 300px;
+  }
+  .article_div_section {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .list-2 {
+    position: fixed;
+    list-style-type: none;
+  }
+  .bold-text-4 {
+    position: relative;
+  }
+  .bold-text-5 {
+    font-size: 20px;
+  }
+  .bold-text-6 {
+    font-size: 20px;
+  }
+  .bold-text-7 {
+    font-size: 20px;
+  }
+  .shopping_container {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: start;
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+  .image_container {
+    padding-left: 0px;
+  }
+  .bold-text-14 {
+    font-size: 25px;
+  }
+  .grid-14 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    grid-template-areas: "Area Area-2 Area-3";
+    -ms-grid-columns: 0.25fr 0.25fr 0.25fr;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr;
+  }
+  .link-block-13 {
+    padding-right: 0px;
+  }
+  .look_book_button {
+    position: relative;
+    left: 523px;
+    top: -62px;
+    max-width: 170px;
+  }
+}
+
+@media (max-width: 479px) {
+  .grid {
+    grid-column-gap: 16px;
+    grid-template-areas: "Area Area" "Area Area" ". ." "Area-2 Area-2" "Area-2 Area-2";
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+  .heading {
+    font-size: 100px;
+  }
+  .article_container_2 {
+    color: #fff;
+  }
+  .button {
+    width: 80px;
+    margin-left: 6px;
+    padding-top: 19px;
+  }
+  .article_grid_1 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas: ". Area-2";
+    -ms-grid-columns: 0.75fr 0px 1fr;
+    grid-template-columns: 0.75fr 1fr;
+    -ms-grid-rows: auto 0px auto;
+    grid-template-rows: auto auto;
+  }
+  .article_image {
+    margin-top: 20px;
+  }
+  .heading-3 {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 22px;
+    padding-left: 6px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .heading-4 {
+    margin-top: 4px;
+    padding-top: 0px;
+    padding-left: 9px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .text-block-3 {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-left: 13px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+  }
+  .grid-3 {
+    grid-template-areas: "Area Area-2" "Area Area-2";
+    -ms-grid-columns: 1fr 0.75fr;
+    grid-template-columns: 1fr 0.75fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .article_3_grid {
+    grid-template-areas: "Area Area-2" "Area Area-2";
+    -ms-grid-columns: 1fr 0.75fr;
+    grid-template-columns: 1fr 0.75fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    background-color: #000;
+  }
+  .article_3_text {
+    padding-top: 51px;
+  }
+  .grid-4 {
+    grid-row-gap: 16px;
+    grid-template-areas: "Area Area-2" "Area Area-2" "Area Area-2";
+    -ms-grid-columns: 0.75fr 1fr;
+    grid-template-columns: 0.75fr 1fr;
+    -ms-grid-rows: auto 16px auto;
+    grid-template-rows: auto auto;
+    background-color: #000;
+  }
+  .image-2 {
+    padding-left: 0px;
+  }
+  .grid-6 {
+    grid-template-areas: "Area Area Area";
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .heading-5 {
+    padding-left: 3px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .heading-6 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .section {
+    padding-top: 17px;
+  }
+  .grid-7 {
+    grid-row-gap: 0px;
+    grid-template-areas: "Area Area-2 Area-3";
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .text-block-4 {
+    font-size: 20px;
+  }
+  .bold-text {
+    margin-left: -2px;
+    padding-left: 0px;
+  }
+  .paragraph-4 {
+    margin-left: 2px;
+    padding-left: 6px;
+  }
+  .heading-7 {
+    margin-top: -7px;
+  }
+  .article_container {
+    grid-column-gap: 0px;
+    grid-row-gap: 32px;
+    -ms-grid-rows: auto 32px auto 32px auto;
+    grid-template-areas: "Area Area-2" "Area Area-2" ". Area-2";
+    -ms-grid-columns: 0.5fr 0px 1.5fr;
+    grid-template-columns: 0.5fr 1.5fr;
+  }
+  .grid-11 {
+    grid-row-gap: 21px;
+    grid-template-areas: "Area Area-3" "Area-2 Area-3" "Area-2 ." "Area-4 Area-4" "Area-4 Area-4" "Area-5 Area-5" "Area-6 Area-6" "Area-6 Area-6";
+    -ms-grid-rows: auto 21px auto 21px auto 21px auto 21px auto 21px auto 21px auto 21px auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+  }
+  .article_section {
+    max-width: 100%;
+  }
+  .header {
+    max-width: 100%;
+  }
+  .list-2 {
+    padding-left: 0px;
+    list-style-type: none;
+  }
+  .bold-text-4 {
+    line-height: 25px;
+  }
+  .bold-text-5 {
+    line-height: 25px;
+  }
+  .bold-text-6 {
+    line-height: 25px;
+  }
+  .bold-text-7 {
+    line-height: 25px;
+  }
+  .heading-9 {
+    width: auto;
+    max-width: none;
+    font-size: 25px;
+  }
+  .div-block-2 {
+    max-width: none;
+  }
+  .paragraph-9 {
+    max-width: 100%;
+    padding-left: 0px;
+  }
+  .bold-text-8 {
+    max-width: 60%;
+  }
+  .heading-10 {
+    max-width: 60%;
+    font-size: 30px;
+  }
+  .text-block-6 {
+    max-width: none;
+  }
+  .bold-text-9 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .clothing_items_container {
+    grid-row-gap: 51px;
+    grid-template-areas: "Area Area-2 Area-3" "Area-4 Area-5 ." "Area-4 Area-5 ." "Area-4 Area-5 ." ". Area-6 ." ". Area-6 ." ". Area-6 ." ". Area-7 ." ". Area-7 ." ". Area-7 ." ". Area-8 ." ". Area-8 ." ". Area-8 ." ". Area-9 ." ". Area-9 ." ". Area-9 .";
+    -ms-grid-columns: 0.25fr;
+    grid-template-columns: 0.25fr;
+    -ms-grid-rows: auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto 51px auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  .shopping_container {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-areas: "Area Area-2 Area-3" "Area Area-2 Area-3" "Area Area-2 Area-3";
+    -ms-grid-columns: 1fr 16px 1fr 16px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto 16px auto 16px auto;
+    grid-template-rows: auto auto auto;
+  }
+  .grid-13 {
+    grid-column-gap: 0px;
+    grid-template-areas: ". . . ." "Area-3 Area-3 Area-3 Area-3" "Area-4 . . ." "Area-7 Area-7 Area-7 Area-7" "Area-8 Area-8 Area-8 Area-8" "Area-5 Area-5 Area-5 Area-5" "Area-6 Area-6 Area-6 Area-6";
+    -ms-grid-columns: 2.5fr 0px 3.25fr;
+    grid-template-columns: 2.5fr 3.25fr;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+  .heading-24 {
+    font-size: 25px;
+  }
+  .look_book_button {
+    left: 208px;
+    top: -28px;
+    max-width: 70px;
+  }
+}
+
+#w-node-eede6e81425f-6124ceb1 {
+  -ms-grid-row: span 4;
+  grid-row-start: span 4;
+  -ms-grid-row-span: 4;
+  grid-row-end: span 4;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-1bf6e60f3ae6-6124ceb1 {
+  -ms-grid-row: span 4;
+  grid-row-start: span 4;
+  -ms-grid-row-span: 4;
+  grid-row-end: span 4;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.article_3_grid>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-db77494a8035-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-b6ad23fb6851-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-1cb914e51f96-6124ceb1 {
+  -ms-grid-row: span 4;
+  grid-row-start: span 4;
+  -ms-grid-row-span: 4;
+  grid-row-end: span 4;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-1cb914e51f9f-6124ceb1 {
+  -ms-grid-row: span 4;
+  grid-row-start: span 4;
+  -ms-grid-row-span: 4;
+  grid-row-end: span 4;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.article_3_grid>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-0c118895fbf8-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-f9d2a4683868-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.article_3_grid>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-2754f34bfb8b-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-5d554136a83a-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.article_3_grid>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-3036ceffa749-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-b9183f048af5-6124ceb1 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-8273c81bde03-6124ceb1 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 3;
+  grid-column-start: span 3;
+  -ms-grid-column-span: 3;
+  grid-column-end: span 3;
+}
+
+#w-node-9c7e8a8d82fb-6124ceb1 {
+  -ms-grid-row: 19;
+  -ms-grid-column: 1;
+  grid-area: Area-4;
+}
+
+.clothing_items_container>#w-node-9c7e8a8d82fb-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-13>#w-node-9c7e8a8d82fb-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-bf7746126fab-6124ceb1 {
+  -ms-grid-row: 11;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area-3;
+}
+
+.clothing_items_container>#w-node-bf7746126fab-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 5;
+}
+
+.grid-13>#w-node-bf7746126fab-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-bf7746126fab-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.article_3_grid>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-aca6cdc49a28-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.article_3_grid>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-3d81798101a3-6124ceb1 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-fb5233ae3c70-6124ceb1 {
+  -ms-grid-row: 15;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area-6;
+}
+
+.grid-10>#w-node-fb5233ae3c70-6124ceb1 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.clothing_items_container>#w-node-fb5233ae3c70-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 5;
+}
+
+.grid-13>#w-node-fb5233ae3c70-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-d631c27ca767-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.article_3_grid>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-10fc9138b9f2-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-b3654caa721d-6124ceb1 {
+  -ms-grid-row: 11;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: Area-5;
+}
+
+.grid-10>#w-node-b3654caa721d-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-b3654caa721d-6124ceb1 {
+  -ms-grid-row: 21;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-b3654caa721d-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-b3654caa721d-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-4ecb0916b210-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.article_3_grid>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-2d1a4915731e-4a25ce65 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-ee53fa15c5e5-1bb6d41a {
+  -ms-grid-row: 19;
+  -ms-grid-column: 1;
+  grid-area: Area-4;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5e5-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-13>#w-node-ee53fa15c5e5-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-ee53fa15c5e6-1bb6d41a {
+  -ms-grid-row: 11;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area-3;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5e6-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 5;
+}
+
+.grid-13>#w-node-ee53fa15c5e6-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-ee53fa15c5e6-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.article_3_grid>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-ee53fa15c5e9-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+}
+
+.article_3_grid>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-ee53fa15c5f0-1bb6d41a {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-ee53fa15c5f1-1bb6d41a {
+  -ms-grid-row: 15;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area-6;
+}
+
+.grid-10>#w-node-ee53fa15c5f1-1bb6d41a {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5f1-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 5;
+}
+
+.grid-13>#w-node-ee53fa15c5f1-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 2;
+  grid-area: Area-2;
+}
+
+.article_3_grid>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+}
+
+.grid-4>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-ee53fa15c5f2-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  grid-area: Area;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.article_3_grid>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 1;
+}
+
+.grid-4>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 1;
+}
+
+.grid-6>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+}
+
+.grid-8>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_container>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-10>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.article_heading_grid>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.image_grid>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-11>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-13>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+.grid-14>#w-node-ee53fa15c5f3-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+#w-node-ee53fa15c5f5-1bb6d41a {
+  -ms-grid-row: 11;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: Area-5;
+}
+
+.grid-10>#w-node-ee53fa15c5f5-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-ee53fa15c5f5-1bb6d41a {
+  -ms-grid-row: 21;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5f5-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-ee53fa15c5f5-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+@media screen and (max-width: 991px) {
+  #w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area-3;
+  }
+  .clothing_items_container>#w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area-3;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-eede6e81425f-6124ceb1 {
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+  #w-node-1bf6e60f3ae6-6124ceb1 {
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+  #w-node-1cb914e51f96-6124ceb1 {
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+  #w-node-1cb914e51f9f-6124ceb1 {
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+  #w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    grid-area: Area-2;
+  }
+  .article_3_grid>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 3;
+  }
+  .grid-4>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 2;
+  }
+  #w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area;
+  }
+  .article_3_grid>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 1;
+  }
+  .grid-4>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 1;
+  }
+  .grid-6>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-8>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-10>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .image_grid>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-14>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area-3;
+  }
+  .clothing_items_container>#w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 23;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    grid-area: Area-7;
+  }
+  #w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 29;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    grid-area: Area-8;
+  }
+  #w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 23;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    grid-area: Area-7;
+  }
+  #w-node-3d81798101a3-6124ceb1 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+  #w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    grid-area: Area-5;
+  }
+  #w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    grid-area: Area-2;
+  }
+  .article_3_grid>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 3;
+  }
+  .grid-4>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 2;
+  }
+  #w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area-3;
+  }
+  .clothing_items_container>#w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area;
+  }
+  .article_3_grid>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 1;
+  }
+  .grid-4>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 1;
+  }
+  .grid-6>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-8>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-10>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .image_grid>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-14>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    grid-area: Area-2;
+  }
+  .article_3_grid>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 3;
+  }
+  .grid-4>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 2;
+  }
+  #w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area-3;
+  }
+  .clothing_items_container>#w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area;
+  }
+  .article_3_grid>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 1;
+  }
+  .grid-4>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 1;
+  }
+  .grid-6>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-8>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-10>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .image_grid>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-14>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    grid-area: Area-2;
+  }
+  .article_3_grid>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 3;
+  }
+  .grid-4>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 2;
+  }
+  #w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area-3;
+  }
+  .clothing_items_container>#w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area;
+  }
+  .article_3_grid>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 1;
+  }
+  .grid-4>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 1;
+  }
+  .grid-6>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-8>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-10>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .image_grid>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-14>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    grid-area: Area-2;
+  }
+  .article_3_grid>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 3;
+  }
+  .grid-4>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 2;
+  }
+  #w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area-3;
+  }
+  .clothing_items_container>#w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    grid-area: Area;
+  }
+  .article_3_grid>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 1;
+  }
+  .grid-4>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 9;
+    -ms-grid-column: 1;
+  }
+  .grid-6>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-8>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-10>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .image_grid>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-14>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 23;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    grid-area: Area-7;
+  }
+  #w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 29;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    grid-area: Area-8;
+  }
+  #w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 23;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    grid-area: Area-7;
+  }
+  #w-node-ee53fa15c5f0-1bb6d41a {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+  #w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    grid-area: Area-5;
+  }
+}
+
+.grid-10>#w-node-ee53fa15c5f5-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-ee53fa15c5f5-1bb6d41a {
+  -ms-grid-row: 21;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-ee53fa15c5f5-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-ee53fa15c5f5-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+@media (max-width: 991px) {
+  .article_3_grid>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .article_3_grid>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .article_3_grid>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .article_3_grid>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-9>#w-node-9c7e8a8d82fb-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-9c7e8a8d82fb-6124ceb1 {
+    -ms-grid-row: 19;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-bf7746126fab-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-bf7746126fab-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-bf7746126fab-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .article_3_grid>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .article_3_grid>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  #w-node-fb5233ae3c70-6124ceb1 {
+    -ms-grid-row: 8;
+    -ms-grid-row-span: 4;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-fb5233ae3c70-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  #w-node-fb5233ae3c70-6124ceb1 {
+    -ms-grid-row: 21;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_3_grid>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .article_3_grid>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_3_grid>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .article_3_grid>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-9>#w-node-ee53fa15c5e5-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-ee53fa15c5e5-1bb6d41a {
+    -ms-grid-row: 19;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-ee53fa15c5e6-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-ee53fa15c5e6-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-ee53fa15c5e6-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .article_3_grid>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .article_3_grid>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  #w-node-ee53fa15c5f1-1bb6d41a {
+    -ms-grid-row: 8;
+    -ms-grid-row-span: 4;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-ee53fa15c5f1-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  #w-node-ee53fa15c5f1-1bb6d41a {
+    -ms-grid-row: 21;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_3_grid>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .article_3_grid>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .article_3_grid>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .article_3_grid>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-9>#w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 12;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 13;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 23;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  #w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 15;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 17;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+  }
+  #w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 12;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 13;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 23;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  #w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_3_grid>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .grid-9>#w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .article_3_grid>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .grid-9>#w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .article_3_grid>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .grid-9>#w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .article_3_grid>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 2;
+  }
+  .grid-4>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+  }
+  .grid-8>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .build_wardrobe_container>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 3;
+  }
+  .grid-9>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .article_heading_grid>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .grid-11>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+  }
+  .grid-9>#w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+  }
+  .grid-14>#w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .article_3_grid>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-8>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .build_wardrobe_container>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 25;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_heading_grid>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-12>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .grid-14>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 12;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 13;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 23;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  #w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 15;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 17;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+  }
+  #w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 12;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 13;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+  #w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 23;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+  #w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+  }
+  .grid-9>#w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+}
+
+@media (max-width: 479px) {
+  .grid>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-db77494a8035-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-b6ad23fb6851-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-0c118895fbf8-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-f9d2a4683868-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-2754f34bfb8b-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-5d554136a83a-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-3036ceffa749-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-9c7e8a8d82fb-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .clothing_items_container>#w-node-9c7e8a8d82fb-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-9c7e8a8d82fb-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-bf7746126fab-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-bf7746126fab-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .clothing_items_container>#w-node-bf7746126fab-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .shopping_container>#w-node-bf7746126fab-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-bf7746126fab-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-aca6cdc49a28-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-fb5233ae3c70-6124ceb1 {
+    -ms-grid-row: 13;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .clothing_items_container>#w-node-fb5233ae3c70-6124ceb1 {
+    -ms-grid-row: 9;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-fb5233ae3c70-6124ceb1 {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-d631c27ca767-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-10fc9138b9f2-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .clothing_items_container>#w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-4ecb0916b210-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-2d1a4915731e-4a25ce65 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-ee53fa15c5e5-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5e5-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-ee53fa15c5e5-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-ee53fa15c5e6-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-ee53fa15c5e6-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5e6-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .shopping_container>#w-node-ee53fa15c5e6-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-ee53fa15c5e6-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-ee53fa15c5e9-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-ee53fa15c5f1-1bb6d41a {
+    -ms-grid-row: 13;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5f1-1bb6d41a {
+    -ms-grid-row: 9;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-ee53fa15c5f1-1bb6d41a {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-ee53fa15c5f2-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-ee53fa15c5f3-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid-7>#w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .clothing_items_container>#w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .shopping_container>#w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-3009b3fd7de6-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid-7>#w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .shopping_container>#w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-ee53fa15c5f4-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-2dfe2783961d-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-b9183f048af5-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .clothing_items_container>#w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .shopping_container>#w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-bc544df5568e-6124ceb1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  #w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 15;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+  }
+  #w-node-b8badd79d0a0-6124ceb1 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  #w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 21;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+  }
+  #w-node-16737508bfdc-6124ceb1 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  #w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 15;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+  }
+  #w-node-f87c27effd99-6124ceb1 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid-11>#w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .clothing_items_container>#w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-b3654caa721d-6124ceb1 {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-a813f89b2c23-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .clothing_items_container>#w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .shopping_container>#w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-62c8ee41be75-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-27154ceead24-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-351f027343b7-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .clothing_items_container>#w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .shopping_container>#w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-351f027343bb-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-351f027343c0-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-46dae6880c3e-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .clothing_items_container>#w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .shopping_container>#w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-46dae6880c42-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-46dae6880c47-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .article_grid_1>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-b6d5e605b081-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+  .grid-7>#w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  #w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+  }
+  .clothing_items_container>#w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+  }
+  .shopping_container>#w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+  }
+  .grid-13>#w-node-b6d5e605b085-1bb6d41a {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  #w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_3_grid>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-4>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-6>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .grid-7>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .article_container>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .grid-11>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .clothing_items_container>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .shopping_container>#w-node-b6d5e605b08a-1bb6d41a {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  #w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 15;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+  }
+  #w-node-ee53fa15c5ea-1bb6d41a {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  #w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 21;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+  }
+  #w-node-ee53fa15c5ec-1bb6d41a {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  #w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 15;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+  }
+  #w-node-ee53fa15c5ee-1bb6d41a {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+  .grid-11>#w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .clothing_items_container>#w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .grid-13>#w-node-ee53fa15c5f5-1bb6d41a {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+  }
+}
+
+.grid-10>#w-node-ee53fa15c5ee-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-10>#w-node-ee53fa15c5ec-1bb6d41a {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-10>#w-node-ee53fa15c5ea-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-b6d5e605b081-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-b6d5e605b081-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-b6d5e605b081-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-b6d5e605b081-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-b6d5e605b081-1bb6d41a {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-b6d5e605b081-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-b6d5e605b081-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-b6d5e605b081-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-46dae6880c3e-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-46dae6880c3e-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-46dae6880c3e-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-46dae6880c3e-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-46dae6880c3e-1bb6d41a {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-46dae6880c3e-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-46dae6880c3e-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-46dae6880c3e-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-351f027343b7-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-351f027343b7-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-351f027343b7-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-351f027343b7-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-351f027343b7-1bb6d41a {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-351f027343b7-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-351f027343b7-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-351f027343b7-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-a813f89b2c23-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-a813f89b2c23-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-a813f89b2c23-1bb6d41a {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-a813f89b2c23-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-a813f89b2c23-1bb6d41a {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-a813f89b2c23-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-a813f89b2c23-1bb6d41a {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-a813f89b2c23-1bb6d41a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-10>#w-node-b3654caa721d-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-b3654caa721d-6124ceb1 {
+  -ms-grid-row: 21;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-b3654caa721d-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 9;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-b3654caa721d-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-f87c27effd99-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-10>#w-node-16737508bfdc-6124ceb1 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-10>#w-node-b8badd79d0a0-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+.grid-8>#w-node-2dfe2783961d-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+}
+
+.article_container>#w-node-2dfe2783961d-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+}
+
+.grid-10>#w-node-2dfe2783961d-6124ceb1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.article_heading_grid>#w-node-2dfe2783961d-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+}
+
+.grid-11>#w-node-2dfe2783961d-6124ceb1 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+}
+
+.clothing_items_container>#w-node-2dfe2783961d-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+}
+
+.grid-13>#w-node-2dfe2783961d-6124ceb1 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-14>#w-node-2dfe2783961d-6124ceb1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+}
+
+@font-face {
+  font-family: 'Abrilfatface';
+  src: url('../fonts/AbrilFatface-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Droidsans';
+  src: url('../fonts/DroidSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Droidsans';
+  src: url('../fonts/DroidSans.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
